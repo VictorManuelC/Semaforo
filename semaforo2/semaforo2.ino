@@ -33,6 +33,7 @@ void loop(){
  }
 }
 void changeLights(){
+  delay(6000);
  digitalWrite(greenCar, LOW); //apaga carGreen
  digitalWrite(yellowCar, HIGH); //acende carYellow
  delay(2000);
@@ -40,7 +41,7 @@ void changeLights(){
  digitalWrite(redCar, HIGH); //acende carRed
  digitalWrite(redPeople, LOW); //apaga pedRed
  digitalWrite(greenPeople, HIGH); //acende pedGreen
- delay(valorPot); //chama a variavel crossTime que voce setou no inicio do codigo
+ delay(valorPot*8); //chama a variavel crossTime que voce setou no inicio do codigo
 
 //aqui vai começar a piscar o LED verde avisando que esta acabando o tempo de atravessar
 
